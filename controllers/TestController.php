@@ -21,5 +21,6 @@ class TestController extends Controller
        $res     =   $service->check(['Home/index','Home/add'],1,1);
 
        echo $res;
+       //todo yii测试git
    }
 }
